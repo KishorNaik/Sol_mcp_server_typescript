@@ -62,7 +62,7 @@ npm run dev
 ```
 This command will typically start the API server and enable features like hot-reloading for development. Keep this server running in the background.
 
-- Ensure Redis Docker is Running: This Todo API relies on Redis for caching and potentially other functionalities like rate limiting. Make sure you have a Redis Docker container running. If you don't have it set up, you'll need to install Docker and then run a Redis container. A basic command to run a Redis container is:
+- Ensure Redis Docker is Running: This Todo API relies on Redis for caching.Make sure you have a Redis Docker container running. If you don't have it set up, you'll need to install Docker and then run a Redis container. A basic command to run a Redis container is:
 ```bash
 docker run -d -p 6379:6379 redis
 ```
