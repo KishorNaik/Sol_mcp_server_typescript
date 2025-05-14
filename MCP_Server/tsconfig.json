@@ -1,0 +1,33 @@
+{
+	"compilerOptions": {
+		"target": "ES2022",
+		"lib": ["ES2022", "esnext.asynciterable"],
+		"typeRoots": ["node_modules/@types"],
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "node16",
+		"module": "Node16",
+		"pretty": true,
+		"sourceMap": false,
+		"declaration": true,
+		"declarationMap": true,
+		"outDir": "dist",
+		"allowJs": true,
+		"noEmit": false,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"importHelpers": false,
+		"baseUrl": "../",
+		"rootDir": ".",
+		"types": ["node"],
+		"skipLibCheck": true,
+		"strict": true,
+		"paths": {
+			"*": ["*"]
+		}
+	},
+	"exclude": ["node_modules", "build", "dist"],
+	"include": ["src/**/*"] // Specify file inclusion patterns
+}

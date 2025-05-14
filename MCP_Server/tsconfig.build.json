@@ -1,0 +1,30 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"target": "ES2022",
+		"lib": ["ES2022", "esnext.asynciterable"],
+		"typeRoots": ["node_modules/@types"],
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"forceConsistentCasingInFileNames": true,
+		"moduleResolution": "node16",
+		"module": "Node16",
+		"pretty": true,
+		"sourceMap": false,
+		"declaration": true,
+		"declarationMap": true,
+		"outDir": "dist",
+		"allowJs": true,
+		"noEmit": false,
+		"esModuleInterop": true,
+		"resolveJsonModule": true,
+		"importHelpers": false,
+		"baseUrl": "./src/core/",
+		"rootDir": "src",
+		"skipLibCheck": true,
+		"strict": true
+	},
+	"exclude": ["node_modules", "build", "dist", "src/test/**/*", "src/examples/**/*"],
+	"include": ["src/**/*"] // Specify file inclusion patterns
+}
